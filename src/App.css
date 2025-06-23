@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0bfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+.task-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  color: #333;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+  color: maroon;
+  font-family:fantasy;
+  font-size: medium;
+}
+
+/* Input Field */
+input {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ce9e9e;
+  border-radius: 4px;
+}
+
+/* Add Task Button */
+button {
+  background-color: #685072;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #935555;
+}
+
+/* Task List */
+.tasklists {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+/* Task Item */
+.tasklists-item {
+  background: #e9ecef;
+  padding: 8px 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tasklists-item:hover {
+  background-color: #d6d8db;
+}
+
+/* Active Task (Selected) */
+.tasklists-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
